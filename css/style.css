@@ -1,0 +1,112 @@
+*{
+    background: rgb(240, 255, 252);
+	font-family: sans-serif;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.contenedor-login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 350px;
+    background: white;
+    border: solid;
+    border-color:rgb(148, 152, 155);
+    padding-left: 5px;
+    border-radius: 4%;
+    border-width: 1px;
+
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 20px;
+    background: white;
+}
+
+
+#input-text{
+    background: white;
+    border-color:rgb(148, 152, 155);
+    margin: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 182px;
+    height: 30px;
+    
+}
+
+
+label{
+    background: white;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.btn_inicio{
+    
+    background: rgb(51, 156, 255);
+    border-color: rgb(23, 128, 220);
+    font-weight: 100;
+    margin: 12px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 182px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+
+.check-recordar{
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.check{
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+    margin-right: 6px;
+
+}
+
+.leyenda{
+    font-size: 12px;
+    background: white;
+    margin: 12px;
+    text-align: center;
+
+}
+
+
+
+
+@media (max-width: 400px) {
+    .contenedor-login{
+        width: 90%;
+    }
+
+}
